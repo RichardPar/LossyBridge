@@ -142,7 +142,7 @@ int init_module()
 
     proc_create("loss", 0, NULL, &loss_fops);
 
- 
+
     lossyness = loss;
 
     ret = nf_register_hooks(nf_customtrace_ops, ARRAY_SIZE(nf_customtrace_ops));
