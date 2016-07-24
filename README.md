@@ -1,5 +1,5 @@
 # BridgeMangle
-A simple Netfilter-Bridge utility that drops packets baced on a random values
+A simple Netfilter-Bridge utility that drops packets based on a random values
 that are traversing the linux bridge subsystem. This emulates a bad network link between devices.
 
 This only works with Linux Bridges as it intercepts the FORWARD 
