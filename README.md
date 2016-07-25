@@ -9,11 +9,11 @@ Building - just run MAKE
 
 sudo insmod bridgebreak_out.ko<br>
 
-Setup : You need atleast 2 ethernet devices in a bridge
-sudo brctl addbr br0
-sudo brctl addif br0 eth1
-sudo brctl addif br0 eth2
-sudo ifconfig br0 up
+Setup : You need atleast 2 ethernet devices in a bridge<br>
+sudo brctl addbr br0<br>
+sudo brctl addif br0 eth1<br>
+sudo brctl addif br0 eth2<br>
+sudo ifconfig br0 up<nr>
 
 
 Show Status : cat /proc/loss<br>
